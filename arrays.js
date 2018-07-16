@@ -7,10 +7,13 @@ var ingredient6 = "garlic"
 var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
 var superheroines = ['catwoman', 'she-hulk', 'mystique']
 superheroines.push('wonder woman')
+
 var cities = ['New York', 'San Francisco']
 cities.unshift('Philadelphia')
+
 function addElementToBeginningOfArray (array, element){
   var array = new Array()
-  array = ["element", ...array]
+  array.unshift("element")
   return array
-}
+}\
+
